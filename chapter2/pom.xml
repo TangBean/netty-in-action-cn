@@ -20,11 +20,16 @@
     <modules>
         <module>Client</module>
         <module>Server</module>
+        <module>MyEchoServer</module>
+        <module>MyEchoClient</module>
+        <module>JavaNioEchoDemo</module>
     </modules>
 
     <properties>
         <echo-server.hostname>localhost</echo-server.hostname>
         <echo-server.port>8888</echo-server.port>
+        <my-echo-server.hostname>localhost</my-echo-server.hostname>
+        <my-echo-server.port>9999</my-echo-server.port>
     </properties>
 
     <build>
